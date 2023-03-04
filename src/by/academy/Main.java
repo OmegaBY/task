@@ -6,9 +6,17 @@ public class Main {
         System.out.println("Lesson 3");
 
         int i = 1;
-        int m = 2* ++i + i++;
+        int m = 2* i++ + i++; //2*i=> i+1 => 2+i(=2) => m=4, i ++ (i=2+ 1);
         System.out.println(m);
         System.out.println(i);
+
+        /*
+        int i = 1;
+        int m = 2* ++i + i++; //2*2+2 =6   2*(1+1)+1+1=6
+        System.out.println(m);
+        System.out.println(i);
+
+         */
 
 
 
