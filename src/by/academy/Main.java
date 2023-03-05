@@ -25,10 +25,12 @@ public class Main {
 
         if (color > 0 && color < 8) {
 
-            System.out.println("выбран цвет " );
+            System.out.print("выбран цвет " );
             Rainbow.getClr(color);
 
             if (color2 > 0 && color2 < 8) {
+
+                System.out.print(" - ");
                 Rainbow.getClr(color2);
 
             }

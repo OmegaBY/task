@@ -1,14 +1,7 @@
 package by.academy.rainbow;
 
 public class Rainbow {
-   /* public static String check(int a) {
-        if (a > 0 && a < 8) {
-            getClr(a);
-        } else {
-            System.out.println("ERROR_2");
-        }
-    }
-*/
+
 
     public static void getClr(int a) {
 
@@ -18,32 +11,32 @@ public class Rainbow {
                 break;
 
             case 2:
-                System.out.print("orange");
+                System.out.print("ORANGE");
                 break;
 
 
             case 3:
-                System.out.print("yellow");
+                System.out.print("YELLOW");
                 break;
 
 
             case 4:
-                System.out.print("green");
+                System.out.print("GREEN");
                 break;
 
 
             case 5:
-                System.out.print("blue");
+                System.out.print("BLUE");
                 break;
 
 
             case 6:
-                System.out.print("indigo");
+                System.out.print("INDIGO");
                 break;
 
 
             case 7:
-                System.out.print("violet");
+                System.out.print("VIOLET");
                 break;
 
         }
