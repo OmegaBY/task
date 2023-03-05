@@ -18,18 +18,19 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Home Work (lesson 3)");
         int color = BLUE;
+
         int color2 = INDIGO;
         Rainbow rainbow = new Rainbow();
 
-        int a ;
 
         if (color > 0 && color < 8) {
 
-            rainbow.=color
-            System.out.println("выбран цвет " + );
+            System.out.println("выбран цвет " );
+            Rainbow.getClr(color);
+
             if (color2 > 0 && color2 < 8) {
-                a = color2;
-                System.out.println (getColor(a));
+                Rainbow.getClr(color2);
+
             }
 
         } else {

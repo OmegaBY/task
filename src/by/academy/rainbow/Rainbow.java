@@ -1,33 +1,52 @@
 package by.academy.rainbow;
 
 public class Rainbow {
+   /* public static String check(int a) {
+        if (a > 0 && a < 8) {
+            getClr(a);
+        } else {
+            System.out.println("ERROR_2");
+        }
+    }
+*/
 
-    public static String getClr(int a){
-      switch (a) {
-          case 1:
-              return  "red";
+    public static void getClr(int a) {
 
-          case 2:
-              return "orange";
+        switch (a) {
+            case 1:
+                System.out.print("RED");
+                break;
 
-          case 3:
-              return "yellow";
+            case 2:
+                System.out.print("orange");
+                break;
 
-          case 4:
-              return "green";
 
-          case 5:
-              return "blue";
+            case 3:
+                System.out.print("yellow");
+                break;
 
-          case 6:
-              return "indigo";
 
-          case 7:
-              return "violet";
+            case 4:
+                System.out.print("green");
+                break;
 
-          default:
-             break;
-      }
+
+            case 5:
+                System.out.print("blue");
+                break;
+
+
+            case 6:
+                System.out.print("indigo");
+                break;
+
+
+            case 7:
+                System.out.print("violet");
+                break;
+
+        }
     }
 
 }
